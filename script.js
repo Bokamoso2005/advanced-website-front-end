@@ -1,5 +1,5 @@
 function addToCart(id) {
-  const BACKEND_URL = "https://itca-example-advanced-website-backend.onrender.com";
+  const BACKEND_URL = "https://advanced-website-back-end.onrender.com";
 
   fetch(`${BACKEND_URL}/api/products`)
     .then(res => res.json())
